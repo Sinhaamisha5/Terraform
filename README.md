@@ -17,3 +17,4 @@ $ aws cloudformation update-stack --stack-name cnf-workshop-template-and-stack -
 Delete a stick
 $ aws cloudformation delete-stack --stack-name cnf-workshop-template-and-stack
 
+![image](https://github.com/user-attachments/assets/8772b9a8-5c35-4055-96b2-41f11b51ad07)

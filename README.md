@@ -17,4 +17,17 @@ $ aws cloudformation update-stack --stack-name cnf-workshop-template-and-stack -
 Delete a stick
 $ aws cloudformation delete-stack --stack-name cnf-workshop-template-and-stack
 
-![image](https://github.com/user-attachments/assets/8772b9a8-5c35-4055-96b2-41f11b51ad07)
+
+![image](https://github.com/user-attachments/assets/98037de3-7736-45f6-99b6-fabbe9e6add4)
+
+Lets again create a new stack
+
+$ aws cloudformation create-stack --stack-name cfn-workshop-resources --template-body file://resources.yaml
+{
+    "StackId": "arn:aws:cloudformation:us-east-1:157514729189:stack/cfn-workshop-resources/6a5b5e50-d51f-11ef-8bde-0edb2933a48b"
+}
+
+![image](https://github.com/user-attachments/assets/41895be7-9a96-412f-bf65-786e384e86cb)
+
+# Intrinsic functions
+Intrinsic functions are built-in functions that help you manage your stacks. Without them, you will be limited to very basic templates
